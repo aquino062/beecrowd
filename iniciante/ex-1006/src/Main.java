@@ -16,5 +16,6 @@ public class Main {
         double media = (nota1 + nota2 + nota3) / 10;
 
         System.out.printf("MEDIA = %.1f\n", media);
+        scanner.close();
     }
 }
