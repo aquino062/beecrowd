@@ -10,7 +10,7 @@ public class Main {
 
         double salarioFinal = (totalVendaMes * 0.15) + salarioFixo;
 
-        System.out.printf("TOTAL = R$ %.2f", salarioFinal);
+        System.out.printf("TOTAL = R$ %.2f\n", salarioFinal);
         scanner.close();
 
 
