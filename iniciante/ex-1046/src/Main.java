@@ -18,5 +18,6 @@ public class Main {
         }
 
         System.out.println("O JOGO DUROU " + duracao + " HORA(S)");
+        scanner.close();
     }
 }
