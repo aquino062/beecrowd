@@ -9,9 +9,8 @@ public class Main {
 
         int j = 1;
         for (int i = 1; i <= n; i++) {
-            for (int c = 1; c < 3; c++) {
-                resultado = j * j; //ao quadrado
-            }
+            resultado = j * j; //ao quadrado
+
             System.out.print(j + " ");
             System.out.print(resultado + " ");
             System.out.println(resultado * j); // ao cubo
