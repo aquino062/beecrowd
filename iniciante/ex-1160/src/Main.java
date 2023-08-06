@@ -15,7 +15,7 @@ public class Main {
             double g1 = scanner.nextDouble();
             double g2 = scanner.nextDouble();
 
-            for (; pa <= pb; ) {
+            while (pa <= pb) {
                 pa += (pa * (g1 / 100));
                 pb += (pb * (g2 / 100));
                 cont++;
