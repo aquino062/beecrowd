@@ -43,22 +43,17 @@ public class Main {
 
             }
 
-
             System.out.print("Caso #" + (i + 1) + ": ");
 
-
-            if (vencedor != null) {
+            if (empate) {
+                System.out.println("De novo!");
+            } else {
                 if (vencedor.equals(escolhaSheldon)) {
                     System.out.println("Bazinga!");
-                }
-                if (vencedor.equals(escolhaRaj)) {
+                } else if (vencedor.equals(escolhaRaj)) {
                     System.out.println("Raj trapaceou!");
                 }
             }
-            if (empate) {
-                System.out.println("De novo!");
-            }
-
         }
         scanner.close();
     }
