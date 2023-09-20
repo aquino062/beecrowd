@@ -16,18 +16,12 @@ public class Main {
             if (vet[i] % 2 == 0) {
                 m2++;
             }
-        }
-        for (int i = 0; i < vet.length; i++) {
             if (vet[i] % 3 == 0) {
                 m3++;
             }
-        }
-        for (int i = 0; i < vet.length; i++) {
             if (vet[i] % 4 == 0) {
                 m4++;
             }
-        }
-        for (int i = 0; i < vet.length; i++) {
             if (vet[i] % 5 == 0) {
                 m5++;
             }
