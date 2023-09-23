@@ -15,7 +15,6 @@ public class Main {
             int posicao = -1;
 
 
-
             for (int i = 0; i <= N2.length() - N1.length(); i++) {
                 if (N1.equals(N2.substring(i, i + N1.length()))) {
                     qntdSubSequencias++;
